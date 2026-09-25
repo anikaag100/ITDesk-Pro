@@ -43,7 +43,7 @@ export default function App() {
       setTickets(ticketsRes.items || []);
     } catch (err) {
       console.error('Data fetch error:', err);
-      setError('Could not connect to backend server at http://127.0.0.1:8000/api/v1');
+      setError('Could not connect to backend server API.');
     } finally {
       setLoading(false);
     }
@@ -156,7 +156,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="border-t border-slate-900 bg-slate-950/80 py-4 text-center text-xs text-slate-500">
-        Enterprise Automated IT Support & Incident Resolver — Phase 3 React Dashboard
+        ITDesk-Pro — Automated IT Support & Incident Resolver
       </footer>
     </div>
   );

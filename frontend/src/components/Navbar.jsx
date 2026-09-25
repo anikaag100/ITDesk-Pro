@@ -15,7 +15,7 @@ export default function Navbar({ health, onOpenCreateModal, onRefresh }) {
           <div>
             <div className="flex items-center space-x-2">
               <span className="font-bold text-lg text-white tracking-wide">
-                IBM IT-Resolver <span className="text-indigo-400 font-medium text-xs px-2 py-0.5 bg-indigo-950 border border-indigo-800 rounded-md">PHASE 3</span>
+                ITDesk-Pro
               </span>
             </div>
             <p className="text-xs text-slate-400">Autonomous Incident Remediation & Self-Healing Engine</p>
